@@ -17,3 +17,9 @@ MVC와 템플릿 엔진 방식 : 템플릿 엔진을 모델 뷰 컨트롤러 방
 스프링 개발할 때 말하는 api방식 : 객체를 반환하는 것, json으로 바꿔서 반환을 해주는 것, 
 view같은 거 없이 http response에 반환해주는 것 ( getter, setter )
 
+![Untitled](https://user-images.githubusercontent.com/89967897/136702447-dda69bf7-452f-468a-bfc2-aa126366b21b.png)
+
+컨트롤러 : api 만들거나 컨트롤러 역할 
+
+서비스 : 서비스 클래스의 핵심 비즈니스 로직이 들어가 있음 (ex. 회원은 중복 가입이 안된다),
+비즈니스 도메인 객체를 가지고 핵심 비즈니스 로직이 동작하도록 구현한 계층
